@@ -14,6 +14,17 @@ template <> void Swap<MyString>(MyString& a, MyString& b)
 	b.m_pStr = temp;
 }
 
+class A {
+	public:
+	char ar[10];
+}
+
+void Func() {
+	A a = {"qwerty"};
+}
+
+
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int iX = 1, iY = -1;
